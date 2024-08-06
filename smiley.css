@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 0;
+    background-color: yellow;
+    border: 0.5px solid black;
+    border-radius: 100px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+.eye-div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+}
+
+.glass1 ,
+.glass2{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    
+}
+
+.glass1{
+    border-radius: 5px 8px 8px 40px;
+}
+
+.glass2{
+    border-radius: 5px 8px 40px 8px;
+}
+
+.connect{
+    width: 28px;
+    height: 5px;
+    background-color: black;
+}
+
+.mouth-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 61px 0px -12px -190px;
+}
+.mouth{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px 20px 200px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.mouth2{
+    width: 55px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 0 0 200px 200px;
+
+}

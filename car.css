@@ -1,0 +1,84 @@
+body{
+    padding: 0px;
+}
+
+.main-div{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-div{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 45px 45px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-div{
+    width: 150px;
+    height: 78px;
+    background-color: white;
+    border-radius: 40px 40px 6px 6px;
+
+    /* width: 120px;
+    border-radius: 40px 40px 6px 6px;
+    border-bottom: 59px solid white;
+	border-left: 25px solid black;
+	border-right: 25px solid black; */
+}
+
+.body-div{
+    width: 300px;
+    height: 90px;
+    background-color: black;
+    border-radius: 45px 45px 6px 6px;
+}
+
+.light-div{
+    width: 300px;
+    height: 80px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.lights{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.bottum-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tires-div{
+    width: 300px;
+    height: 52px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.tires{
+    width: 55px;
+    height: 52px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: black;
+} 
